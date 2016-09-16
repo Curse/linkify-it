@@ -15,7 +15,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "wintest": "./node_modules/.bin/_mocha"
   },
   "dependencies": {
     "uc.micro": "^1.0.1"
